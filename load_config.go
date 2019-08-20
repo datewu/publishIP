@@ -12,6 +12,7 @@ var (
 	mode      = flag.String("mode", "dev", "environment default to develop environment")
 	thirdPart = flag.String("echo", "https://ipecho.net/plain", "the thirdparty service for ipECHO")
 	server    = flag.String("server", "https://wutuofu.com/api/v1/channel/ip", "the server side channel")
+	name      = flag.String("name", "cd-router-publicIP", "the client name, you should set this identity")
 )
 
 func init() {

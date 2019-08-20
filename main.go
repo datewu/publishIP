@@ -27,6 +27,7 @@ func theLoop() (map[string]string, error) {
 		return nil, err
 	}
 	msg := map[string]string{
+		"name":    *name,
 		"ip":      ip,
 		"version": GitCommit,
 	}
